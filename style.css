@@ -1,0 +1,100 @@
+body {
+    background-image: url("title.jpg");
+    background-size: cover;
+    font-family: "Ubuntu";
+    line-height: 1.2;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: "Sacramento";
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+a,
+h1,
+h2,
+h5,
+p,
+pre,
+lable {
+    color: white;
+}
+
+h5 {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6666;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: grey;
+}
+
+#cust-1-image,
+#cust-2-image,
+#cust-3-imag,
+#cust-4-image,
+#cust-5-image {
+    margin-right: 30px;
+    width: 92px;
+}
+
+#ice-creams,
+#Reviews {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#ice-creams h2 {
+    padding-bottom: 50px;
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "Ubuntu";
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.row.ratings {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.navbar {
+    background-color: grey;
+    font-family: "Ubuntu";
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    /* position: static; */
+}
+
+.navbar-brand {
+    font-family: "Sacramento";
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.images {
+    float: left;
+}
+
+
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("title.jpg");*/
